@@ -17,10 +17,19 @@ body {
 .header {
     padding:10px;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rosybrown;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    background-image: url(/assests/images/moon.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 30%;
+    display: flex;
+    align-items: flex-start;
+}
+.selfie {
+    height: 150px;
+    border-radius: 40px;
 }
 
 .header h1 {
@@ -28,10 +37,8 @@ body {
     font-size: 5vw;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: khaki;
-    background-image: url(/assests/images/oneday.PNG);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    border:none
+
 }
 
 .header nav ul {
@@ -47,7 +54,7 @@ body {
     font-size: 2vw;
 }
 .header nav ul li a:hover {
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 10px rgba(228, 200, 39, 0.984);
 }
 
 
@@ -64,7 +71,7 @@ a {
 
 /* about me */
 
-.about-me{
+#about-me{
     font-size: 3vw;
     display: flex;
     flex-wrap: wrap;
@@ -73,14 +80,14 @@ a {
 }
 
 /* p */
-p,  {
-    font-size: 1.75vw;
+p  {
+    font-size: 2vw;
     margin: 20px;
     color: black;
 }
 
 /* work */
-.work {
+#work {
     font-size: 3vw;
     margin: 20px;
     display:flex;
@@ -109,7 +116,7 @@ img:hover {
 
 
 /* contact */
-.contact {
+#contact {
     font-size: 3vw;
     margin: 20px;
     display: flex;
@@ -132,7 +139,7 @@ img:hover {
 }
 
 /* resume */
-.resume {
+#resume {
     font-size: 3vw;
     margin: 20px;
     display: flex;
