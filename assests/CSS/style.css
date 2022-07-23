@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: lavender;
+}
+
+/* header*/
+.header {
+    padding:50px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rosybrown;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 5vw;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: khaki;
+}
+
+.header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.header nav ul li a {
+    padding: 20px 25px ;
+    font-size: 2vw;
+}
+.header nav ul li a:hover {
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* section */
+section {
+    padding: 10px;
+}
+
+/* A */
+a {
+    color: khaki;
+    text-decoration: none;
+}
+
+/* about me */
+
+.about-me{
+    font-size: 3vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    color: purple;
+}
+
+/* p */
+p {
+    font-size: 1.75vw;
+    margin: 20px;
+    color: purple;
+}
+
+/* work */
+.work {
+    font-size: 3vw;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: purple;
+}
+
+/* contact */
+.contact {
+    font-size: 3vw;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: purple;
+}
+
+.phone {
+    color: purple;
+}
+
+.email {
+    color: purple;
+}
+
+.link {
+    color: purple;
+}
+
+/* resume */
+.resume {
+    font-size: 3vw;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: purple;
+}
+
+.rest {
+    font-size: 1.75vw;
+    color: purple;
+    margin: 20px;
+}
+
+/* media queries */
+@media  screen and (max-width:980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    
+}
+
+@media screen and (max-width:575px) {
+    
+}
