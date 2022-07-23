@@ -4,13 +4,18 @@
     margin: 0;
 }
 
+/* body background */
 body {
     background-color: lavender;
+    background-image: url(/assests/images/background.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 /* header*/
 .header {
-    padding:50px;
+    padding:10px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rosybrown;
     display: flex;
@@ -23,6 +28,10 @@ body {
     font-size: 5vw;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: khaki;
+    background-image: url(/assests/images/oneday.PNG);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .header nav ul {
@@ -40,6 +49,7 @@ body {
 .header nav ul li a:hover {
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
 
 /* section */
 section {
@@ -59,25 +69,44 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around; 
-    color: purple;
+    color: black;
 }
 
 /* p */
-p {
+p,  {
     font-size: 1.75vw;
     margin: 20px;
-    color: purple;
+    color: black;
 }
 
 /* work */
 .work {
     font-size: 3vw;
     margin: 20px;
-    display: flex;
+    display:flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    color: purple;
+    color: black;
 }
+
+.run, .horiseon, .c1, .c2, .c3, .c4 {
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    gap: 10px 20px;
+}
+
+.runpic, .hs, .burger, .skates, .boo, .sweat {
+    width: 100px;
+    height: 120px;
+}
+
+img:hover {
+    transform: scale(1.5);
+    z-index: 999;
+}
+
 
 /* contact */
 .contact {
@@ -86,19 +115,20 @@ p {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    color: purple;
+    color: black;
 }
 
-.phone {
-    color: purple;
+.phone, .email, .link {
+    color: black;
 }
 
-.email {
-    color: purple;
-}
-
-.link {
-    color: purple;
+.address {
+    font-size: 2vw;
+    font-display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+    text-align: center;
 }
 
 /* resume */
@@ -108,13 +138,17 @@ p {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    color: purple;
+    color: black;
 }
 
 .rest {
     font-size: 1.75vw;
-    color: purple;
+    color: black;
     margin: 20px;
+}
+
+.rest ul li {
+    list-style: none;
 }
 
 /* media queries */
