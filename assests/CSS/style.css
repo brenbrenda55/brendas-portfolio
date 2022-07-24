@@ -1,3 +1,8 @@
+:root {
+    --primary-color: black;
+
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -6,11 +11,10 @@
 
 /* body background */
 body {
-    background-color: lavender;
-    background-image: url(/assests/images/background.jpeg);
+    background-image: url(/assests/images/background.JPG);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size:cover
 }
 
 /* header*/
@@ -20,23 +24,19 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-image: url(/assests/images/moon.jpeg);
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: 30%;
     display: flex;
     align-items: flex-start;
 }
 .selfie {
     height: 150px;
-    border-radius: 40px;
+    border-radius: 20px;
 }
 
 .header h1 {
     display: inline-block;
     font-size: 5vw;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: khaki;
+    color: var(--primary-color);
     border:none
 
 }
@@ -54,7 +54,7 @@ body {
     font-size: 2vw;
 }
 .header nav ul li a:hover {
-    text-shadow: 0 0 10px rgba(228, 200, 39, 0.984);
+    text-shadow: 0 0 10px rgba(12, 11, 5, 0.984);
 }
 
 
@@ -65,48 +65,43 @@ section {
 
 /* A */
 a {
-    color: khaki;
+    color: black;
     text-decoration: none;
 }
 
 /* about me */
 
-#about-me{
+#about-me, #work, #contact, #resume {
     font-size: 3vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around; 
     color: black;
+    margin: 20px;
 }
 
 /* p */
 p  {
     font-size: 2vw;
     margin: 20px;
-    color: black;
+    color: var(--primary-color);
 }
 
 /* work */
-#work {
-    font-size: 3vw;
-    margin: 20px;
-    display:flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    color: black;
-}
+
 
 .run, .horiseon, .c1, .c2, .c3, .c4 {
-    display: inline-flex;
+    display: inline-block;
     justify-content: center;
     flex-wrap: wrap;
-    padding-bottom: 20px;
-    gap: 10px 20px;
+    padding: 20px 30px;
+    border-style: none;
+    margin: 20px 30px 40px;
 }
 
 .runpic, .hs, .burger, .skates, .boo, .sweat {
-    width: 100px;
-    height: 120px;
+    width: 150px;
+    height: 180px;
 }
 
 img:hover {
@@ -116,14 +111,7 @@ img:hover {
 
 
 /* contact */
-#contact {
-    font-size: 3vw;
-    margin: 20px;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    color: black;
-}
+
 
 .phone, .email, .link {
     color: black;
@@ -139,14 +127,7 @@ img:hover {
 }
 
 /* resume */
-#resume {
-    font-size: 3vw;
-    margin: 20px;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    color: black;
-}
+
 
 .rest {
     font-size: 1.75vw;
@@ -191,12 +172,33 @@ img:hover {
     p {
         font-size: 15px;
     }
+
+    #work {
+        font-size: 30px;
+    }
+
+    #contact {
+        font-size: 30px;
+    }
+
+    .address {
+        font-size: 20px;
+    }
+
+    #resume {
+        font-size: 30px;
+    }
     
+    .rest {
+        font-size: 20px ;
+    }
   
 }
 
 @media screen and (max-width:768px) {
-    
+    .header nav ul li a {
+        font-size: 25px;
+    }
 }
 
 @media screen and (max-width:575px) {
