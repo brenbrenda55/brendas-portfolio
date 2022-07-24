@@ -28,7 +28,7 @@ body {
     flex-wrap: wrap;
     display: flex;
     align-items: flex-start;
-    background-image: url(/assests/images/flowers.JPG);
+    background-image: url(../images/flowers.JPG);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -184,7 +184,7 @@ p  {
 
 .footer {
     padding: 50px;
-    background-image: url(/assests/images/flowers.JPG);
+    background-image: url(../images/flowers.JPG);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
