@@ -16,4 +16,5 @@ https://brenbrenda55.github.io/brendas-portfolio/
 
 ## Screenshot of Product
 
-![brendas portfolio](.///assests/images/finished%20product-1.png)
+
+<img src="./assests/images/finished%20product-1.png" width="300" height="auto">
