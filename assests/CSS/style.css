@@ -188,7 +188,7 @@ p  {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 10%;
+    background-position: 80%;
     z-index: 9999;
 
 
@@ -247,6 +247,16 @@ p  {
     .rest {
         font-size: 20px ;
     }
+
+
+    .footer{
+        background-size: cover;
+    }
+
+    .header {
+        background-size: cover;
+    }
+
   
 }
 
@@ -254,11 +264,30 @@ p  {
     .header nav ul li a {
         font-size: 25px;
     }
+
+
+    .footer{
+        background-size: cover;
+    }
+
+    .header {
+        background-size: cover;
+    }
+
 }
 
 @media screen and (max-width:575px) {
     .columncontainer {
         flex-wrap: wrap;
-    }
     
+    }
+
+    .footer{
+        background-size: cover;
+    }
+
+    .header {
+        background-size: cover;
+    }
+
 }
