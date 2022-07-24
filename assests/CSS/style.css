@@ -14,7 +14,9 @@ body {
     background-image: url(/assests/images/background.JPG);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size:cover
+    width: 100%;
+    background-size: cover ;
+    
 }
 
 /* header*/
@@ -92,15 +94,33 @@ p  {
 
 
 .run {
-    border-style: dotted;
-    margin: 10px;
+    border-style: dashed;
+    margin: 100px;
     box-sizing: border-box;
-    margin: ;
+    padding: 40px 40px 40px ;
+    
 }
 
 .runpic{
-    width: 10%;
-    
+    width: 15%;
+
+}
+
+.columncontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.column1 {
+    width: 30%;
+    padding: 30px
+}
+
+.column2 {
+    width: 30%;
+    padding: 30px;
 }
 
 .horiseon, .c1, .c2, .c3, .c4 {
@@ -113,7 +133,7 @@ p  {
 }
 
 .hs, .burger, .skates, .boo, .sweat {
-    width: 10%;
+    width: 40%;
 }
 
 
