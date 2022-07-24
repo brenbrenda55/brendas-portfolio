@@ -90,19 +90,32 @@ p  {
 /* work */
 
 
-.run, .horiseon, .c1, .c2, .c3, .c4 {
-    display: inline-block;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 20px 30px;
-    border-style: none;
-    margin: 20px 30px 40px;
+
+.run {
+    border-style: dotted;
+    margin: 10px;
+    box-sizing: border-box;
+    margin: ;
 }
 
-.runpic, .hs, .burger, .skates, .boo, .sweat {
-    width: 150px;
-    height: 180px;
+.runpic{
+    width: 10%;
+    
 }
+
+.horiseon, .c1, .c2, .c3, .c4 {
+    flex-wrap: wrap;
+    display: flex;
+    border-style: dotted;
+    padding: 10px 10px 10px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.hs, .burger, .skates, .boo, .sweat {
+    width: 10%;
+}
+
 
 img:hover {
     transform: scale(1.5);
