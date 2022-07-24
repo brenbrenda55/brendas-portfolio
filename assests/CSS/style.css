@@ -28,6 +28,14 @@ body {
     flex-wrap: wrap;
     display: flex;
     align-items: flex-start;
+    background-image: url(/assests/images/flowers.JPG);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 5%;
+    z-index: 9999;
+    
+   
 }
 .selfie {
     height: 150px;
@@ -94,53 +102,54 @@ p  {
 
 
 .run {
-    border-style: dashed;
     margin: 100px auto;
     box-sizing: border-box;
     padding: 40px 40px 40px ;
     width: 300px;
     
-    
 }
 
 .runpic{
     width: 100%;
+    border-style: groove;
+    border-width: 5px;
 }
 
 .columncontainer {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    width:250px;
-    
+    display: flex;
+}
 
-} 
 
 .column1 {
-    width: 70%;
+    width: 200px;
     padding: 5px;
     margin: 20px;
-
 }
 
 .column2 {
-    width: 70%;
+   width: 200px;
     padding: 5px;
-    margin:20px;
+    margin: 20px;
 
 }
 
 .horiseon, .c1, .c2, .c3, .c4 {
     flex-wrap: wrap;
     display: flex;
-    border-style: dotted;
-    padding: 10px 10px 10px;
+    padding: 10px;
+    border-width: 1px;
     justify-content: space-between;
-    align-items: flex-start;
+
+
 }
+
 
 .hs, .burger, .skates, .boo, .sweat {
     width: 100%;
+    border-width: 5px;
+    border-style: groove;
+    border-color: coral;
 }
 
 
@@ -171,6 +180,18 @@ p  {
 
 .rest ul li {
     list-style: none;
+}
+
+.footer {
+    padding: 50px;
+    background-image: url(/assests/images/flowers.JPG);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10%;
+    z-index: 9999;
+
+
 }
 
 /* media queries */
@@ -236,5 +257,8 @@ p  {
 }
 
 @media screen and (max-width:575px) {
+    .columncontainer {
+        flex-wrap: wrap;
+    }
     
 }
