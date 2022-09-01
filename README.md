@@ -14,7 +14,7 @@ Challenge 2- creating your own portfolio
 
 https://brenbrenda55.github.io/brendas-portfolio/
 
-## Screenshot of Product
+## Screenshot of Product##
 
 
 <img src="./assests/images/finished%20product-1.png" width="500" height="auto">
